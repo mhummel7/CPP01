@@ -1,11 +1,11 @@
-SRC = main.cpp
+SRC = main.cpp Harl.cpp
 
 CXX = g++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 OBJ_DIR = obj
 OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.cpp=.o))
-NAME = replace
+NAME = harl
 
 all: $(NAME)
 
